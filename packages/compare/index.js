@@ -21,7 +21,7 @@ function bboxdiffer(before, after) {
 function compare(point, metres) {
     const [before, after] = both(point, metres);
 
-    console.log(JSON.stringify(featureCollection([ before, after ])));
+    console.log(JSON.stringify(featureCollection([ point, before, after ])));
 
     return bboxdiffer(before, after);
 }
