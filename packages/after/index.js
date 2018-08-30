@@ -8,7 +8,7 @@ const { version } = require(require.resolve('@turf/buffer/package.json'));
 
 module.exports = function _buffer(point, metres) {
     debug(version, point.geometry.coordinates, metres);
-    const result = buffer(point, metres / 1000, { units: 'kilometers' });
+    const result = buffer(point, metres, 'metres');
     result.properties = { version };
     return result;
 };

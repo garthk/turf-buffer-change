@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "debug": "^3.1.0",
-    "@turf/buffer": "5.1.5"
+    "@turf/buffer": "4.7.x"
   }
 }
