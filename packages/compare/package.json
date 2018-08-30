@@ -1,0 +1,22 @@
+{
+  "name": "@repro/top",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "compare-bbox-versions": "index.js"
+  },
+  "dependencies": {
+    "@repro/after": "1.0.0",
+    "@repro/before": "1.0.0",
+    "@turf/bbox": "^6.0.1",
+    "@turf/helpers": "^6.1.4",
+    "debug": "^3.1.0"
+  }
+}
