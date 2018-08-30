@@ -13,6 +13,17 @@ Instead, the `@turf` team released this as a semver patch.
 [buffer]: https://www.npmjs.com/package/@turf/buffer
 [semver-8]: https://semver.org/#spec-item-8
 
+For the curious, the radii projected to EPSG:28356 are:
+
+  | version | radius (m) |
+  | ------- | ---------- |
+  | 4.7.3   |    499.713 |
+  | 4.7.4   |    420.053 |
+
+[EPSG:28356]: https://epsg.io/28356
+
+... so the new results are wrong, not just different.
+
 ## Usage
 
 * `npm install`
